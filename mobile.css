@@ -22,6 +22,18 @@
     width:100vw;
     height:85vh;
     background-color:#DC5AE8;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio p{
+    color:white;
+    font-size:2rem;
+    line-height: 4rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    text-align: center;
 }
 
 .productos{
