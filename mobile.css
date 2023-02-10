@@ -16,7 +16,18 @@
 
 .header img{
     width:70%;
+    animation: fadeIn 2s;
 }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
 
 .inicio{
     width:100vw;
