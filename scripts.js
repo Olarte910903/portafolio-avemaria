@@ -1,8 +1,12 @@
-const logo = document.querySelector('img');
+const logo = document.querySelector('.logo-header');
 
-function borroso(){
-    logo.style.filter = 'blur(2px)';
-}
+window.addEventListener("scroll", function() {
+    var rect = logo.getBoundingClientRect();
+    if (rect.top < 0) {
+      logo.style.filter = 'blur(1px)';
+    } else {
+      logo.style.filter = 'blur(0px)';
+    }
+  });
 
-logo.addEventListener(click,borroso);
 
