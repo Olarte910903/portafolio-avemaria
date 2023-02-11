@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face{
+    font-family:"mi-fuente";
+    src:url('./assets/Poppins-ExtraBold.ttf');
+}
+
 .header{
     width:100vw;
     height:15vh;
@@ -38,6 +43,21 @@
     justify-content: center;
 }
 
+.logo-inicio{
+    width:60vw;
+    height: 85vh;
+    background-color:#DC5AE8;
+    background-image: url('./assets/vitrina.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter:opacity(0.5);
+}
+
+.logo-inicio img{
+    width:50%;
+    margin:1rem
+}
+
 /* .inicio p{
     color:white;
     font-size:2rem;
@@ -47,10 +67,51 @@
     text-align: center;
 } */
 
+.cotizacion{
+    width:40vw;
+    height: 85vh;
+   background-color: #4F0863;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.cotizacion p{
+    font-family: mi-fuente;
+    transform: rotate(270deg);
+    color:white;
+    font-size:6rem;
+}
 .productos{
     width:100vw;
     height:85vh;
-    background-color:#E8C866;
+    background-color:white;
+    display: flex;
+}
+
+.camisa-polo{
+    width:40vw;
+    height:85vh;
+   background-color: #4F0863;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.foto-polo{
+    width:60vw;
+    height:85vh;
+    background-image: url('./assets/polo.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.texto-polo{
+    font-family: mi-fuente;
+    transform: rotate(270deg);
+    color:white;
+    font-size:6rem;
 }
 .servicios{
     width:100vw;
