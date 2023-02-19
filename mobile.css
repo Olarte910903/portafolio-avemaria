@@ -116,7 +116,23 @@
 .servicios{
     width:100vw;
     height:85vh;
-    background-color:#89E838;
+    background-color:#38cee8;
+}
+
+.cabecera-servicios{
+    width:100vw;
+    height: 15vh;
+    background-color:#4360E8;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.cabecera-servicios p{
+    color:white;
+    font-family: mi-fuente;
+    font-size: 2rem;
+    text-align:center;
 }
 .quienes-somos{
     width:100vw;
