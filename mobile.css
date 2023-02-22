@@ -1,3 +1,11 @@
+:root{
+    --violeta1: #4d0491;
+    --violeta2:#58079c;
+    --violeta3: #640ba7;
+    --violeta4: #7e33b7;
+    --violeta5: #a167c9;
+}
+
 *{
     margin:0;
     padding:0;
@@ -16,7 +24,8 @@
     align-items:center;
     justify-content: center;
     flex-direction:column;
-    background-color:#4F0863;
+    background-color:var(--violeta1);
+    
 }
 
 .logo-header{
@@ -37,7 +46,7 @@
 .inicio{
     width:100vw;
     height:85vh;
-    background-color:#DC5AE8;
+    background-color:var(--violeta5);
     display:flex;
     align-items: center;
     justify-content: center;
@@ -46,11 +55,11 @@
 .logo-inicio{
     width:60vw;
     height: 85vh;
-    background-color:#DC5AE8;
+    background-color:var(--violeta1);
     background-image: url('./assets/vitrina.jpeg');
     background-size: cover;
     background-position: center;
-    filter:opacity(0.5);
+    filter:opacity(0.6);
 }
 
 .logo-inicio img{
@@ -70,7 +79,7 @@
 .cotizacion{
     width:40vw;
     height: 85vh;
-   background-color: #4F0863;
+   background-color: var(--violeta3);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -79,7 +88,7 @@
 .cotizacion p{
     font-family: mi-fuente;
     transform: rotate(270deg);
-    color:white;
+    color:var(--violeta5);
     font-size:6rem;
 }
 .productos{
@@ -92,7 +101,7 @@
 .camisa-polo{
     width:40vw;
     height:85vh;
-   background-color: #4F0863;
+   background-color:var(--violeta3);
    display:flex;
    align-items: center;
    justify-content: center;
@@ -110,19 +119,19 @@
 .texto-polo{
     font-family: mi-fuente;
     transform: rotate(270deg);
-    color:white;
+    color:var(--violeta5);
     font-size:6rem;
 }
 .servicios{
     width:100vw;
     height:85vh;
-    background-color:#38cee8;
+    background-color:var(--violeta5);
 }
 
 .cabecera-servicios{
     width:100vw;
     height: 15vh;
-    background-color:#4360E8;
+    background-color:var(--violeta1);
     display:flex;
     align-items:center;
     justify-content:center;
@@ -137,7 +146,7 @@
 .quienes-somos{
     width:100vw;
     height:85vh;
-    background-color:#4360E8;
+    background-color:var(--violeta4);
 }
 
 .none{
@@ -147,7 +156,7 @@
 .footer{
     width:100vw;
     height:15vh;
-    background-color:#4F0863;
+    background-color:var(--violeta1);
     display: flex;
     align-items:center;
     justify-content: space-around;
@@ -160,6 +169,8 @@
 
 .footer p{
     font-size:0.6rem;
+    font-family:arial;
+    font-weight: 400;
     color:white;
 }
 
